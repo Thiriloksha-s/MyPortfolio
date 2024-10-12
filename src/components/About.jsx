@@ -27,7 +27,7 @@ const About = () => {
           initial={{opacity:0,x:100}}
           transition={{duration:1}} className="w-full lg:w-1/2">
               <div className="flex justify-center lg:justify-start">
-                   <p className="mx-4 my-2 py-6 font-light tracking-tighter lg:max-w-xl lg:mx-16 text-justify lg:leading-relaxed ">
+                   <p className="mx-4 my-2 py-6 font-light tracking-normal lg:max-w-xl lg:mx-16 text-justify lg:leading-relaxed ">
                  
                   {ABOUT_TEXT}</p>
               </div>
