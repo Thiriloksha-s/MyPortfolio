@@ -32,7 +32,7 @@ const Hero = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 1 }}
-                className="mx-auto my-2 py-6 font-light tracking-tighter lg:max-w-xl lg:mx-16 text-justify lg:leading-relaxed ">
+                className="mx-auto my-2 py-6 font-light tracking-normal lg:max-w-xl lg:mx-16 text-justify lg:leading-relaxed ">
               
                 {HERO_CONTENT}
               </motion.p>
@@ -40,14 +40,14 @@ const Hero = () => {
           </div>
 
           
-          <div className="hidden lg:block lg:w-1/2 lg:p-8"> 
+          <div className="w-full lg:w-1/2 lg:p-8"> 
             <motion.img
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1, delay: 0.5 }}
               src={Picture}
               alt="Thiriloksha S"
-              className="w-full max-w-[500px] mx-auto"
+              className="w-full max-w-[300px] sm:max-w-[400px] md:max-w-[500px] mx-auto"
             />
           </div>
         </div>
