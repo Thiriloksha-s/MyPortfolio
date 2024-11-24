@@ -29,14 +29,7 @@ export const PROJECTS = [
     githubLink: "https://github.com/your-repo-link",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
-  {
-    title: "Spotify Clone - Music Player",
-    image: project2,
-    description:
-      "A Spotify clone built using HTML, JavaScript, and CSS that mimics the core functionality and UI of the original music streaming platform.",
-    githubLink: "https://github.com/Thiriloksha-s/Spotify-Clone",
-    technologies: ["HTML", "CSS", "Javascript"],
-  },
+  
   {
     title: "Weather App",
     image: project3,
